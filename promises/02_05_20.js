@@ -40,6 +40,8 @@ setTimeout(() => {
     console.log('Promise 2: ', promise2)
 }, 2*1000)
 
+
+// Proper rejection handling
 keepsHisWord = false;
 message = ""
 promise3 = new Promise((resolve, reject) => {
